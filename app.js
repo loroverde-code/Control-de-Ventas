@@ -14,7 +14,7 @@ function entrar(){
   if(login(u.value,p.value)){
     usuarioActual=u.value;
     menu();
-  } else alert("Error");
+  } else alert("El Usuario y/o contraseña es incorrecto");
 }
 
 function menu(){
